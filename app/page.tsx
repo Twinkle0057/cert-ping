@@ -5,6 +5,8 @@ import Pricing from "./components/Pricing";
 import Reliability from "./components/Reliability";
 import Footer from "./components/Footer";
 import WebPresence from "./components/WebPresence";
+import Insights from "./components/Insights";
+import Monitering from "./components/Monitering";
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
           <Hero />
           <Features />
           <WebPresence/>
+          <Insights />
+          <Monitering />
           <Pricing />
           <Reliability />
         </main>
